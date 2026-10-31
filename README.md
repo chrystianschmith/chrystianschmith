@@ -59,13 +59,6 @@ principios:
   - custo de nuvem também é requisito
 ```
 
-## 📊 GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chrystianschmith&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" alt="GitHub stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chrystianschmith&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" height="165"/>
-</p>
-
 ---
 
 <p align="center">
