@@ -19,7 +19,6 @@ sempre com testes e validação antes de qualquer coisa chegar em produção.
 - 🌐 **Rede:** VPN site-to-site, firewalls WatchGuard
 - 💾 **Backup & DR:** Veeam, repositórios em nuvem e planos de recuperação
 - 💸 **FinOps:** visibilidade e redução de custo de nuvem
-- 🤖 **IA para DevOps:** agentes (Claude Code) para criar e revisar pipelines, scripts e runbooks
 
 ## 🛠️ Stack
 
