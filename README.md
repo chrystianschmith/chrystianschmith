@@ -1,7 +1,7 @@
+[README.md](https://github.com/user-attachments/files/34353152/README.md)
 <p align="center">
   <img src="./banner.svg" alt="Chrystian Schmith — DevOps, Cloud e Automação" width="100%"/>
 </p>
-
 
 <p align="center">
   <a href="https://www.linkedin.com/in/chrystian-schmith"><img src="https://img.shields.io/badge/LinkedIn-conectar-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -47,7 +47,7 @@ spec:
 
 ### Ferramentas
 
-| Área | No dia a dia |
+| Área | Stack |
 |---|---|
 | **Cloud** | AWS · Azure · Google Cloud · Alibaba Cloud · Oracle Cloud |
 | **Containers & CI/CD** | Docker · GitHub Actions · GitLab CI *(aprofundando)* · Kubernetes *(aprofundando)* |
