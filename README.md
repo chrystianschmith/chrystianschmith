@@ -1,65 +1,81 @@
 <p align="center">
-  <img src="./banner.svg" alt="Chrystian Schmith · DevOps & Cloud · IA aplicada a DevOps" width="100%"/>
+  <img src="./banner.svg" alt="Chrystian Schmith — DevOps, Cloud e Automação" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/chrystian-schmith"><img src="https://img.shields.io/badge/LinkedIn-chrystian--schmith-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <img src="https://img.shields.io/badge/DevOps-Cloud-22d3ee?style=for-the-badge&logo=githubactions&logoColor=white" alt="DevOps & Cloud"/>
-  <img src="https://img.shields.io/badge/IA-para%20DevOps-a855f7?style=for-the-badge&logo=anthropic&logoColor=white" alt="IA para DevOps"/>
+  <a href="https://www.linkedin.com/in/chrystian-schmith"><img src="https://img.shields.io/badge/LinkedIn-conectar-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <img src="https://img.shields.io/badge/Canoas%2C%20RS-Brasil-1f2937?style=flat-square" alt="Canoas, RS"/>
+  <img src="https://img.shields.io/badge/foco-DevOps%20%26%20Cloud-f59e0b?style=flat-square" alt="Foco DevOps & Cloud"/>
 </p>
 
-## 👋 Sobre mim
+<br/>
 
-Atuo com **DevOps & Cloud**, com foco em automação, confiabilidade e custo.
-Uso **IA aplicada a DevOps** para ganhar velocidade em pipelines, scripts, documentação e revisão de mudanças,
-sempre com testes e validação antes de qualquer coisa chegar em produção.
+Gosto de ambiente que se explica sozinho: pipeline que diz o que quebrou, backup que já foi testado,
+custo que alguém olhou antes de virar surpresa.
 
-- ☁️ **Multi-cloud:** Azure, AWS e Alibaba Cloud
-- 🔐 **Identidade:** SSO com Microsoft Entra ID, SAML/SCIM
-- 🌐 **Rede:** VPN site-to-site, firewalls WatchGuard
-- 💾 **Backup & DR:** Veeam, repositórios em nuvem e planos de recuperação
-- 💸 **FinOps:** visibilidade e redução de custo de nuvem
+Há cerca de dois anos e meio trabalho com **ambientes multi-cloud** (AWS, Azure, Google Cloud e Alibaba Cloud),
+lidando com identidade, rede, backup e continuidade. Hoje o meu foco é **DevOps**: containers, CI/CD
+e automação, com **IA como ferramenta de engenharia** para escrever, revisar e documentar mais rápido,
+sem abrir mão de teste e validação.
 
-## 🛠️ Stack
-
-**Cloud**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=azure,aws,linux,docker&theme=dark" alt="Cloud"/>
-</p>
-
-**CI/CD & Plataforma**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel,postgres,prisma&theme=dark" alt="CI/CD"/>
-</p>
-
-**Automação & Scripting**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=bash,powershell,python,ts,nodejs&theme=dark" alt="Automação"/>
-</p>
-
-## 🚀 Projetos em destaque
-
-| Projeto | O que é | Destaques de DevOps |
-|---|---|---|
-| [**Awsdrill**](https://github.com/chrystianschmith/Awsdrill) | SaaS de preparação para certificações AWS | CI no GitHub Actions, **banco de preview por PR (Neon branching)**, testes automatizados (Vitest + Playwright), monitoramento com Sentry, deploy na Vercel |
-| [**operacao_aprovacao**](https://github.com/chrystianschmith/operacao_aprovacao) | Plataforma de estudos | Pipeline de CI, Postgres com Docker Compose, migrations versionadas, **ensaio automatizado de backup/restore**, cron de produção, MFA administrativo |
-
-## 🧭 Como eu trabalho
+<br/>
 
 ```yaml
-principios:
-  - automatize o que repete, documente o que não dá pra automatizar
-  - nada vai pra produção sem pipeline verde
-  - backup que nunca foi restaurado não é backup
-  - IA acelera; testes e revisão garantem que está certo
-  - custo de nuvem também é requisito
+# chrystian.yaml
+apiVersion: people/v1
+kind: Engineer
+metadata:
+  name: chrystian-schmith
+  location: Canoas, RS — Brasil
+spec:
+  role: DevOps & Cloud
+  clouds: [aws, azure, gcp, alibaba-cloud]
+  delivers:
+    - pipelines de CI/CD com testes e deploy automatizado
+    - containers e ambientes reproduzíveis
+    - SSO e provisionamento de identidade (Entra ID, SAML, SCIM)
+    - VPN site-to-site e conectividade entre nuvens
+    - backup e disaster recovery testados de verdade
+  currentlyLearning: [kubernetes, gitlab-ci]
+  principles:
+    - automatizar o que se repete, documentar o resto
+    - nada vai pra produção sem pipeline verde
+    - backup que nunca foi restaurado não é backup
+    - custo de nuvem também é requisito
 ```
 
----
+### Ferramentas
+
+| Área | No dia a dia |
+|---|---|
+| **Cloud** | AWS · Azure · Google Cloud · Alibaba Cloud · Oracle Cloud |
+| **Containers & CI/CD** | Docker · GitHub Actions · GitLab CI *(aprofundando)* · Kubernetes *(aprofundando)* |
+| **Automação** | Bash · PowerShell · Python · TypeScript |
+| **Identidade & Rede** | Microsoft Entra ID · SAML / SCIM · VPN site-to-site · WatchGuard |
+| **Backup & DR** | Veeam · repositórios em nuvem |
+| **Dados & Plataforma** | PostgreSQL · Prisma · Neon · Vercel |
+| **IA aplicada** | Claude Code e agentes para pipelines, scripts, runbooks e revisão de mudanças |
+
+### Projetos
+
+**[Awsdrill](https://github.com/chrystianschmith/Awsdrill)** — plataforma de preparação para certificações AWS.
+CI no GitHub Actions, banco de preview isolado para cada pull request (Neon branching),
+testes unitários e end-to-end (Vitest + Playwright), monitoramento com Sentry e deploy contínuo na Vercel.
+
+**[operacao_aprovacao](https://github.com/chrystianschmith/operacao_aprovacao)** — plataforma de estudos com cursos e simulados.
+Pipeline de CI, PostgreSQL via Docker Compose, migrations versionadas, ensaio automatizado
+de backup e restauração do banco, jobs agendados em produção e MFA administrativo.
+
+### Formação e certificações
+
+- Tecnólogo em **Computação em Nuvem**
+- **AWS** Certified Cloud Practitioner
+- **Microsoft** AZ-900 · SC-900 · MS-900
+- **Oracle** Cloud Infrastructure Foundations
+
+<br/>
 
 <p align="center">
-  <sub>DevOps · Cloud · IA aplicada à automação · <a href="https://www.linkedin.com/in/chrystian-schmith">vamos conversar no LinkedIn</a></sub>
+  <sub>Construindo ambientes em que dá pra confiar — e automatizando o caminho até eles.</sub><br/>
+  <sub><a href="https://www.linkedin.com/in/chrystian-schmith">linkedin.com/in/chrystian-schmith</a></sub>
 </p>
